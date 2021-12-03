@@ -1,0 +1,25 @@
+.section{
+    padding: 100px 0;
+    display: block;
+}
+.section-title{
+    margin-bottom: 70px;
+}
+.h6{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.text-color{
+    color: #FBAD18;
+}
+.service-item{
+    position: relative;
+    padding-left: 80px;
+}
+.service-item i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    font-size: 50px;
+    opacity: .4;
+}
