@@ -1,0 +1,39 @@
+.slider{
+    background: url(../../../assets/team-5842784_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: 10% 55%;
+    position: relative;
+    padding: 200px 0;
+    overflow: hidden;
+}
+.slider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background: #000;
+}
+.slider .block span{
+    letter-spacing: 1px;
+}
+.self-row{
+    justify-content: center;
+    align-items: center;
+}
+.text-white{
+    color: #fff !important;
+}
+.text-capitalize{
+    text-transform: capitalize !important;
+}
+.slider .block h1{
+    font-size: 55px;
+    line-height: 70px;
+    font-weight: 600;
+    color: #fff;
+}
