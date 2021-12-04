@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { BasicComponent } from './basic/basic.component';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { RouterModule } from '@angular/router';
     FontAwesomeModule,
     NgbModule,
     FormsModule,
-    RouterModule
+    RouterModule,
+    SharedModule
   ],
   exports:[
     NavbarComponent,
