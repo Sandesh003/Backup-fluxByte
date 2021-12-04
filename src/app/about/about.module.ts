@@ -11,7 +11,7 @@ import { HomeModule } from '../home/home.module';
   ],
   imports: [
     CommonModule,
-    HomeModule
+    HomeModule,
   ],
   exports: [
     AboutPageComponent
