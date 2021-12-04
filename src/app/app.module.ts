@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { dropdownDirective } from './shared/dropdown.directive';
 import { HomeModule } from './home/home.module';
+import { AboutModule } from './about/about.module';
 import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
@@ -22,7 +23,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
     AppRoutingModule,
     NgbModule,
     HomeModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

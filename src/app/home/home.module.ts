@@ -7,6 +7,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { BasicComponent } from './basic/basic.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -14,19 +16,22 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     IntroComponent,
     ServicesComponent,
-    CarouselComponent
+    CarouselComponent,
+    BasicComponent
   ],
   imports: [
     CommonModule,
     FontAwesomeModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    RouterModule
   ],
   exports:[
     NavbarComponent,
     IntroComponent,
     ServicesComponent,
-    CarouselComponent
+    CarouselComponent,
+    BasicComponent
   ]
 })
 export class HomeModule {
