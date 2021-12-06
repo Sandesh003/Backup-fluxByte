@@ -17,14 +17,13 @@
 .footer-inner {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 25px;
   justify-content: space-evenly;
 } 
 
 .footer-inner .textwidget{
   padding-top: inherit;
-  padding-left: 50px;  
-  padding-right: 50px;
   text-align: justify;
 }
 
@@ -208,4 +207,3 @@
 .num12 div{
   transform: rotate(0);
 }
-
