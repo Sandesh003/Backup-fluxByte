@@ -1,0 +1,110 @@
+*{
+  overflow: hidden;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+}
+
+.row>*{
+  padding: 0!important;
+}
+
+.sec-heading{
+  z-index: 1;
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+.sec-content{
+  z-index: 1;
+}
+
+#partners{
+  background: url("../../../assets/digitization-5231610.jpg") no-repeat;
+  background-size: cover;
+}
+
+.partners
+{
+  color: white;
+  background-image: url("../../../assets/about.jpg");
+  background-position: inherit;
+  position: relative;
+  height: 100%;
+}
+
+.partners::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.we-work-with-header{
+  color: white;
+}
+
+.card{
+  cursor: pointer;
+  width: 300px !important;
+  height: 300px !important;
+  border: none;
+}
+
+.card:hover > .front{
+  transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+.front,.back{
+width: 100%;
+height: 100%;
+overflow: hidden;
+backface-visibility: hidden;
+position: absolute;
+transition: transform .6s linear;
+}
+
+.front img{
+  width: 100%;
+  height: 100%;
+}
+
+.front {
+  transform: perspective(600px) rotateY(0deg); 
+}
+
+.back {
+  background: white;
+  transform: perspective(600px) rotateY(180deg); 
+}
+
+.back-content{
+  text-align: center;
+  width: 100%;
+}
+
+.back-content h2{
+  margin-top: 10%;
+  color: #657ec4;
+}
+
+.back-content span{
+  color: #2c3e50;
+}
+
+.sm {
+  margin-top: 15%;
+  line-height: 40px;
+  font-size: 18px;
+  color: #657ec4;
+}

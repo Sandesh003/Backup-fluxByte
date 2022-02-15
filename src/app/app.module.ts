@@ -10,7 +10,8 @@ import { FaIconLibrary, FontAwesomeModule } from '@fortawesome/angular-fontaweso
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-import { FooterComponent } from './shared/footer/footer.component';
+import { ContactModule } from './contact/contact.module';
+import { SharedModule } from './shared/shared.module';
 
 
 @NgModule({
@@ -23,7 +24,9 @@ import { FooterComponent } from './shared/footer/footer.component';
     NgbModule,
     HomeModule,
     FontAwesomeModule,
-    AboutModule
+    AboutModule,
+    ContactModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
