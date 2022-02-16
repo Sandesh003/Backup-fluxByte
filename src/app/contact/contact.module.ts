@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BasicContactComponent } from './basic-contact/basic-contact.component';
+import { HomeModule } from '../home/home.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,7 +11,9 @@ import { BasicContactComponent } from './basic-contact/basic-contact.component';
     BasicContactComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+	HomeModule,
+    SharedModule
   ],
   exports: [
     BasicContactComponent
