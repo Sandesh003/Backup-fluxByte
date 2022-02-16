@@ -12,6 +12,7 @@ import { far } from '@fortawesome/free-regular-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FooterComponent } from './shared/footer/footer.component';
 import { ExtraComponent } from './extra/extra.component';
+import { ContactModule } from './contact/contact.module';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -27,7 +28,9 @@ import { SharedModule } from './shared/shared.module';
     HomeModule,
     FontAwesomeModule,
     AboutModule,
-	SharedModule
+	SharedModule,
+    ContactModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
