@@ -9,3 +9,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+// body{
+// 	background: black;
+// }
+.dFlex{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
